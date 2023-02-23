@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到我的作品展览馆 - 游虚</title>
+
+    {% load static %}
+
+
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="{% static "bootstrap-3.4.1-dist/css/bootstrap.min.css" %}">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static "bootstrap-3.4.1-dist/js/bootstrap.min.js" %}"></script>
+
+</head>
+<body>
+<div id="container">
+    <div class="container marketing">
+        <div class="jumbotron">
+            <h1>欢迎来到我的作品展览馆</h1>
+            <p class="lead">以下作品均由本人开发，联系邮箱：</p>
+        </div>
+        <center>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="{% static "select_index/img/book_system_logo.png" %}" alt="..." height="150" width="150">
+                <div class="caption">
+                <h3>图书借阅系统</h3>
+                <br>
+                <p><a href="#" class="btn btn-primary" role="button">Open</a></p>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                <img src="{% static "select_index/img/reptile_system_logo.png" %}" alt="..." height="150" width="150">
+                <div class="caption">
+                    <h3>爬虫系统</h3>
+                    <br>
+                    <p><a href="#" class="btn btn-primary" role="button">Open</a></p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                <img src="{% static "select_index/img/web_auto_system_logo.png" %}" alt="..." height="150" width="150">
+                <div class="caption">
+                    <h3>web自动化测试</h3>
+                    <br>
+                    <p><a href="#" class="btn btn-primary" role="button">Open</a></p>
+                </div>
+                </div>
+            </div>
+        </div>
+        </center>
+
+        <footer class="footer">
+            <p>© 2016 Company, Inc.</p>
+        </footer>
+  </div>
+</div>
+</body>
+</html>

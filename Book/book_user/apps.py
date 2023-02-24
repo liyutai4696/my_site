@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SelectIndexConfig(AppConfig):
+class BookUserConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'select_index'
+    name = 'Book.book_user'

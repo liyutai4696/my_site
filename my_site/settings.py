@@ -53,8 +53,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Book.book_user'
+    #'Book.book_user',
+    'reptile',
 ]
+
+#AUTH_USER_MODEL = 'Book.book_user'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
